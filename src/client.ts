@@ -13,10 +13,10 @@ limitations under the License.
 
 import { Log, IRemoteRoom, Util } from "mx-puppet-bridge";
 import { EventEmitter } from "events";
-import * as skypeHttp from "@sorunome/skype-http";
-import { Contact as SkypeContact } from "@sorunome/skype-http/dist/lib/types/contact";
-import { NewMediaMessage as SkypeNewMediaMessage } from "@sorunome/skype-http/dist/lib/interfaces/api/api";
-import { Context as SkypeContext } from "@sorunome/skype-http/dist/lib/interfaces/api/context";
+import * as skypeHttp from "@sergiov85/skype-http";
+import { Contact as SkypeContact } from "@sergiov85/skype-http/dist/lib/types/contact";
+import { NewMediaMessage as SkypeNewMediaMessage } from "@sergiov85/skype-http/dist/lib/interfaces/api/api";
+import { Context as SkypeContext } from "@sergiov85/skype-http/dist/lib/interfaces/api/context";
 import ExpireSet from "expire-set";
 import * as toughCookie from "tough-cookie";
 

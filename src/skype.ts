@@ -16,10 +16,10 @@ import {
 	IRetList, IReplyEvent,
 } from "mx-puppet-bridge";
 import { Client } from "./client";
-import * as skypeHttp from "@sorunome/skype-http";
-import { Contact as SkypeContact } from "@sorunome/skype-http/dist/lib/types/contact";
-import { NewMediaMessage as SkypeNewMediaMessage } from "@sorunome/skype-http/dist/lib/interfaces/api/api";
-import { UnexpectedHttpStatusError } from "@sorunome/skype-http/dist/lib/errors";
+import * as skypeHttp from "@sergiov85/skype-http";
+import { Contact as SkypeContact } from "@sergiov85/skype-http/dist/lib/types/contact";
+import { NewMediaMessage as SkypeNewMediaMessage } from "@sergiov85/skype-http/dist/lib/interfaces/api/api";
+import { UnexpectedHttpStatusError } from "@sergiov85/skype-http/dist/lib/errors";
 import * as decodeHtml from "decode-html";
 import * as escapeHtml from "escape-html";
 import { MatrixMessageParser } from "./matrixmessageparser";
